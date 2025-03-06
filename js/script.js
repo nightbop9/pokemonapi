@@ -73,10 +73,6 @@ btn.addEventListener("click", (e) => {
         }
         // chama a função que obtém os pokemons
         retornarPokemons();
-        function retornarMsg() {
-            alert(`Todos os ${quantidade.value} foram listados`)
-        }
-        retornarMsg()
     } catch (error) {
         // exibe erro no console
         console.log(error);
