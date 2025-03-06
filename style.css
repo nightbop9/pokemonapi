@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input, button {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: auto;
+}
+
+.pokemon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
